@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/igaret/static/css/main.1775f908.css",
+    "main.js": "/igaret/static/js/main.99a74464.js",
+    "static/media/noise.png": "/igaret/static/media/noise.9519791c5d69005caff5.png",
+    "static/media/sombra.svg": "/igaret/static/media/sombra.b584ba234f953d6108a0.svg",
+    "index.html": "/igaret/index.html",
+    "main.1775f908.css.map": "/igaret/static/css/main.1775f908.css.map",
+    "main.99a74464.js.map": "/igaret/static/js/main.99a74464.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1775f908.css",
+    "static/js/main.99a74464.js"
+  ]
+}
