@@ -4,8 +4,9 @@ import './igaret.css'
 
 function IgaretUI (props) {
     const {
-            count, 
+            cigarettes, 
             addCigarette,
+            restartAll
         } = React.useContext(IgaretContex)
 
     return (
@@ -17,19 +18,31 @@ function IgaretUI (props) {
                     <h2 className='today'>HOY</h2>
                     { 
                         
-                        count
-                        && count[0] 
-                        && (<span className='text'>{ count[count.length-1].length } - 10 current - target</span>)
+                        cigarettes
+                        && cigarettes[0] 
+                        && (<span className='text'>{ cigarettes[cigarettes.length-1].length } - 10 current - target</span>)
                     }
                 </div>
 
-                <span className='total'> Total: {count.flat().length}</span>
+                {
+                    cigarettes && <span className='total'> 合計： {cigarettes.flat().length}</span>
+                }
 
                 <div className='redcircle' onClick={addCigarette}>
 
                 </div>
 
+                <div className='restart-movil' onClick={restartAll}>
+                    RESTART
+                </div>
+
             </div>
+
+
+            <div className='restart' onClick={restartAll}>
+                RESTART
+            </div>
+          
 
         </div>
     )
