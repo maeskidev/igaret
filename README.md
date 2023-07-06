@@ -8,18 +8,8 @@ This is a personal project a "smoked cigarette counter" to practice my react.js 
 
 
 # iGaret 
+also include a cigarette counter in order to gradually quit smoking
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image](https://github.com/maeskrr/igaret/assets/26150899/7b97b120-7503-4c58-8c53-ab7d6807f829)
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
